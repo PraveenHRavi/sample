@@ -4,35 +4,37 @@ body {
     padding: 0;
 }
 
-.container {
-    max-width: 800px;
-    margin: 0 auto;
+header {
+    background-color: #333;
+    color: #fff;
     padding: 20px;
 }
 
-header h1 {
-    font-size: 36px;
-    margin-bottom: 10px;
-}
-
-header p {
-    font-size: 18px;
-    color: #666;
+h1 {
+    margin: 0;
 }
 
 section {
+    padding: 20px;
     margin-bottom: 20px;
 }
 
 h2 {
-    font-size: 24px;
+    color: #333;
 }
 
-ul {
-    list-style-type: none;
-    padding: 0;
+article {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
 }
 
-li {
-    margin-bottom: 5px;
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
